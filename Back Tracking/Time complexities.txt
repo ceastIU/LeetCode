@@ -1,2 +1,6 @@
-n choose k = O(n! / (k! * (n - k)!))
-backtracking combinations of size n = O(n*2^n)
+- n choose k = O |           n!         |  
+                 |     (k! * (n - k)!)) |
+
+- backtracking combinations of size n = O(n*2^n)
+
+- permutations is O(n!) 
