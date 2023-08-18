@@ -4,3 +4,6 @@
 - backtracking combinations of size n = O(n*2^n)
 
 - permutations is O(n!) 
+
+- word search:  O(N * 4^L) Where N is the number of cells, l is the length of the word, and the 4 is the number of directions we are searching.
+                O(L) space complexity, where l is the path we are keeping track of
