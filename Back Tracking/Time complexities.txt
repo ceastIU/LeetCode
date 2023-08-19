@@ -10,3 +10,9 @@
 
 - IP address:   O(1) more specifically 3^4
                 O(1) limited number of combinations means that there is no way to grow any single piece of memory
+
+- Flood Fill:   O(m*n) where m is rows and n is cols
+                O(N) where n is the number of cells/pixels
+
+- Phone number: O(3^m * 4^n) m is the number of digits that map to 3 chars, and n is the number of digits that map to 4 chars
+                0(N) where N is the number of digits, this is related to the recusive stack
