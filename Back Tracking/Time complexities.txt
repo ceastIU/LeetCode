@@ -16,3 +16,9 @@
 
 - Phone number: O(3^m * 4^n) m is the number of digits that map to 3 chars, and n is the number of digits that map to 4 chars
                 0(N) where N is the number of digits, this is related to the recusive stack
+
+- Matchsticks:  O(4^n) where n is the number of Matchsticks. This is because there are 4 options/sides that are always explored for each matchstick
+                O(n) where n is the number of matchsticks. This is the recursive call stack's depth.
+
+- Splitting:    O(2^n) where n in the lenght of the string. In the worst case, each character can be a part of a split or not, leading to 2 possibilities per character.
+                O(n) n is the length of the string, representing the depth of the recursive calls
