@@ -28,3 +28,6 @@
 
 - combinations: O(9^k), remember these problems are binded by the number of choices we make pre-level to the exponent of the length we are searching for
                 O(k), once again the recursion depth that goes to the level of the length we are search for, in this case k
+
+- N-Queens:     0(n!), n is the size of the board
+                O(n), n is the size of the recursive call stack
