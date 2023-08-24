@@ -7,3 +7,5 @@ Number of Island:   O(R*C) r = rows, c = cols, at worst, dfs will visit every ce
 Max Area:           O(ROWS * COLS * avg_island_size)
                     O(ROWS * COLS)
 
+Sub Island:         O(ROWS*COLS) The dfs function is called for each cell in the grid2 (m x n times) during the double loop, and each cell is visited at most once.
+                    O(min(m,n)) The primary space used is for recursion, which can go as deep as the dimensions of the grid. The maximum depth of recursion would be min(m, n), which represents the diagonal of the grid.
