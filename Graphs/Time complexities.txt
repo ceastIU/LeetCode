@@ -3,3 +3,7 @@ Island Perimeter:   O(R*C) r = rows, c = cols, at worst, dfs will visit every ce
 
 Number of Island:   O(R*C) r = rows, c = cols, at worst, dfs will visit every cell of the grid
                     0(R*C) r = rows, c = cols, the grid is used to store the visited cells, this is the size of the recursive stack
+
+Max Area:           O(ROWS * COLS * avg_island_size)
+                    O(ROWS * COLS)
+
