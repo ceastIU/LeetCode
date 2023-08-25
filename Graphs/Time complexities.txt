@@ -9,3 +9,6 @@ Max Area:           O(ROWS * COLS * avg_island_size)
 
 Sub Island:         O(ROWS*COLS) The dfs function is called for each cell in the grid2 (m x n times) during the double loop, and each cell is visited at most once.
                     O(min(m,n)) The primary space used is for recursion, which can go as deep as the dimensions of the grid. The maximum depth of recursion would be min(m, n), which represents the diagonal of the grid.
+
+Flow of water:      O(ROWS * COLS) Since each DFS traversal potentially visits every cell once, the total time complexity of the code is O(ROWS * COLS).
+                    O(ROWS * COLS) The pacific and atlantic sets can each store up to O(ROWS * COLS) cells, resulting in a total space complexity of O(ROWS * COLS).
