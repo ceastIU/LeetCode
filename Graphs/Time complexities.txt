@@ -12,3 +12,6 @@ Sub Island:         O(ROWS*COLS) The dfs function is called for each cell in the
 
 Flow of water:      O(ROWS * COLS) Since each DFS traversal potentially visits every cell once, the total time complexity of the code is O(ROWS * COLS).
                     O(ROWS * COLS) The pacific and atlantic sets can each store up to O(ROWS * COLS) cells, resulting in a total space complexity of O(ROWS * COLS).
+
+Surrounded:         O(Rows * Cols) This is because the code iterates through each cell in the board exactly once during the three nested loops.
+                    O(1) meaning it doesn't use any extra space that scales with the input size.
