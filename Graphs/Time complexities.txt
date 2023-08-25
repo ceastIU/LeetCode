@@ -15,3 +15,9 @@ Flow of water:      O(ROWS * COLS) Since each DFS traversal potentially visits e
 
 Surrounded:         O(Rows * Cols) This is because the code iterates through each cell in the board exactly once during the three nested loops.
                     O(1) meaning it doesn't use any extra space that scales with the input size.
+
+Reorder Routes:     O(n) each node will be visited once
+                    O(n) graph representation (adjacency list) and the recursive call stack during DFS traversal. In the worst case, the recursive call stack could contain all nodes, leading to a space complexity of O(N).
+
+Oranges:            O(R*C) in the worst case, all the cells may be rotten, and in each iteration of the while loop, you are visiting each rotten cell's neighboring cells.
+                    O(R*C)  In the worst case, all cells could be rotten, and thus the rotten queue could contain up to R * C elements
