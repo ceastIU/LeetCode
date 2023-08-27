@@ -24,3 +24,6 @@ Oranges:            O(R*C) in the worst case, all the cells may be rotten, and i
 
 Snakes and ladders: O(N*2) The outer while loop iterates until the queue q is empty, which takes O(N^2) time, where N is the number of cells in the board (since it iterates through each cell).
                     O(N*2) The space complexity mainly comes from the usage of the queue q and the set visit, both of which can potentially grow up to O(N^2) in size.
+
+Safe States:        O(N+E) n nodes, e edges
+                    O(N) n nodes for the "safe" hashset
