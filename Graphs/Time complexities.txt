@@ -27,3 +27,6 @@ Snakes and ladders: O(N*2) The outer while loop iterates until the queue q is em
 
 Safe States:        O(N+E) n nodes, e edges
                     O(N) n nodes for the "safe" hashset
+
+Course Schedule:    O(V+E) v vertices, e edges 
+                    O(V+E) The neighbors list consumes O(V + E) space.
