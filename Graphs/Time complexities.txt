@@ -33,3 +33,6 @@ Course Schedule:    O(V+E) v vertices, e edges
 
 Shortest Bridge:    O(ROWS*COLS) a product of the dfs and the bfs
                     O(ROWS*COLS) the visit data structure grows to at most rows * cols
+
+Max Dist:           O(ROWS*COLS) a product of the bfs
+                    O(ROWS*COLS) the visit data structure grows to at most rows * cols
